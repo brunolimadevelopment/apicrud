@@ -7,3 +7,12 @@ export const db = mysql.createConnection({
     password: "B0qKtPpjYFZH0Kpbeq7h",
     database: "bfgnmtz7cxf6xm6xaqtu",
 });
+
+
+// localhost
+/*export const db = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "root",
+    database: "crud",
+});*/
