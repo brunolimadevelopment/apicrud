@@ -2,10 +2,10 @@ import mysql from "mysql"
 
 
 export const db = mysql.createConnection({
-    host: "bfgnmtz7cxf6xm6xaqtu-mysql.services.clever-cloud.com",
-    user: "uyzs5vmi2sb0meyx",
-    password: "B0qKtPpjYFZH0Kpbeq7h",
-    database: "bfgnmtz7cxf6xm6xaqtu",
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASS,
+    database: process.env.DB_NAME,
 });
 
 
